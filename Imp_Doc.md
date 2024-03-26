@@ -2,7 +2,7 @@
 
 # Concept and Plan
 
-Live facial tracking applied to a model rig - including features like head movements, eyes and speech. Perhaps also an emotion recognition program to change expressions.
+Live facial tracking applied to a model rig - including features like head movements, eyes and speech. 
 
 Checklist:
 - [x] Static Image Facial Detection 
@@ -148,29 +148,41 @@ $$ear = \frac{(A + B)}{(2.0 * C)}$$
 - $B$ is horiz distance between p3 and p5
 - $C$ is horizontal distance between p1 and p4
 
+Draw red points over the existing dots if left eye closed, and print it on screen
 ```
-# Draw red points over the existing dots if left eye closed
 if left_EAR < MIN_EAR:
             draw_shape_points_range(fshape,video_frame,LEFT_EYE_POINTS,(0,0,255))
             cv.putText(video_frame, "Left Eye Closed!", (10, 30),   cv.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 ```
 
 ![](assets/doc/eyetracking.mp4)
+
+As seen in the video, the sensitivity of the tracker can sometimes be inaccurate, as my eyes are quite small and can be mistaken to be closed. Further improvement is optimising and smoothing the tracking such that they can identify landmarks more accurately, and maybe an initial calibration phase for users to adjust to their own facial features.
+
+With this ready, I can assign an 'eye' parameter to 0 (closed) and 1 (open)
+
+This same concept will be applied to the other facial parts, however due to time constraints this was not completed.
 # Connecting Tracking to a Model
 
 ## Designing a Model
 Models can be drawn and built from scratch using a software called Live2D.
 
-(tutorials)
+Reference tutorial videos
+https://www.youtube.com/watch?v=z4k9zKvngKY&ab_channel=KiraOmoriLive2D
+https://www.youtube.com/watch?v=RF_QupbfiQw&ab_channel=Fennryn
 
 However due to the a steep learning curve and irrelevant scope to the module, it was decided that I will not be making a model from scratch.
 
-Free Live2D templates can be found (here), and I will use (this)
+Free Live2D templates can be found ([here](https://www.live2d.com/en/learn/sample/))
 
 An important document to gather from Live2D are their Standard Parameter List:
 https://docs.live2d.com/en/cubism-editor-manual/standard-parameter-list/
+which is used to determine which parameters I should be picking out.
 
 ## Unity Build 
+This was also not implemented as there was not enough time to complete, but in theory the parsed JSON files from the Python tracker should be sent to Unity through an OSC, and the associated parameters will affect the animation of particular parts of the model's face as desired.
 
+The animation of the model will be using the Unity plugin [Live2D unity SDK](https://www.live2d.com/en/sdk/download/unity/), which provides the functionality of the model's rigging and animations. 
 
-# Implement to OBS
+# Implementation to OBS
+This would be a simple process, just assigning the environment from Unity as a Window to a streaming software (OBS) with a chroma key green background to create transparency
