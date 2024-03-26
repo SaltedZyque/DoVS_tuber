@@ -41,10 +41,10 @@ A checklist of goals to be accomplished for this project is shown as follows. Th
 # Project Demo
 
 Running [dlib_landmarks.py](py/dlib_landmarks.py)
-<video src="assets/doc/live2.mp4" controls></video>
+<video src="assets/doc/live2.mp4"  width="640" height="320" controls></video>
 
 Running [face_tracker.py](face_tracker.py)
-<video src="assets/doc/eyetracking.mp4" controls></video>
+<video src="assets/doc/eyetracking.mp4"  width="640" height="320" controls></video>
 
 # Evaluation and Next Steps
 
