@@ -41,10 +41,10 @@ A checklist of goals to be accomplished for this project is shown as follows. Th
 # Project Demo
 
 Running [dlib_landmarks.py](py/dlib_landmarks.py)
-![landmarks_vid](https://github.com/SaltedZyque/DoVS_tuber/blob/main/assets/doc/live2.mp4)
+<video src="assets/doc/live2.mp4" controls></video>
 
 Running [face_tracker.py](face_tracker.py)
-![Face_track_vid](assets/doc/eyetracking.mp4)
+<video src="assets/doc/eyetracking.mp4" controls></video>
 
 # Evaluation and Next Steps
 
