@@ -41,10 +41,11 @@ A checklist of goals to be accomplished for this project is shown as follows. Th
 # Project Demo
 
 Running [dlib_landmarks.py](py/dlib_landmarks.py)
-![](assets/doc/live2.mp4)
+![landmarks_vid](assets/doc/live2.mp4)
 
 Running [face_tracker.py](face_tracker.py)
-![](assets/doc/eyetracking.mp4)
+![Face_track_vid](assets/doc/eyetracking.mp4)
+
 # Evaluation and Next Steps
 
 The final Python file is able to:
