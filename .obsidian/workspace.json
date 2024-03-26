@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DocDraft.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DocDraft.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DocDraft.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DocDraft.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,27 +148,28 @@
   },
   "active": "357e327fe694f328",
   "lastOpenFiles": [
+    "Imp_Doc.md",
+    "Pasted.md",
+    "assets/doc/eyetracking.mp4",
+    "assets/doc/eye_points2.png",
     "README.md",
-    "DocDraft.md",
-    "opencv_live.py",
-    "opencv_static copy.py",
-    "opencv_static.py",
+    "assets/doc/eye_points.png",
+    "face_tracker.py",
+    "dlib_landmarks.py",
+    "assets/doc/live2.mp4",
+    "assets/doc/2024-03-26 13-56-44.mp4",
+    "py/shape_predictor_68_face_landmarks.dat",
+    "py/c/shape_predictor_68_face_landmarks.dat",
+    "py/c",
+    "py/shape_predictor_68_face_landmarks.dat/shape_predictor_68_face_landmarks.dat",
+    "py/shape_predictor_68_face_landmarks.dat.bz2",
+    "assets/doc/static3.png",
+    "assets/doc/static2.png",
+    "assets/doc/static1.png",
     "assets/test_3.jpeg",
     "assets/test_3.jpg",
     "assets/WIN_20240121_00_52_42_Pro.jpg",
     "assets/test_1.jpeg",
-    "assets/test_2.jpeg",
-    "assets/20240109135745_1.jpg",
-    "assets/bereal-2023-12-08-1256.jpeg",
-    "assets/screenshots/thumbnails/20240325080327_1.jpg",
-    "assets/screenshots/thumbnails/20240325080326_1.jpg",
-    "assets/screenshots/thumbnails/20240325074819_1.jpg",
-    "assets/screenshots/thumbnails",
-    "assets/screenshots",
-    "opencv_test.py",
-    "assets",
-    "New folder",
-    "DoVS_Tracking.py",
-    "DoVS_Tracking"
+    "assets/test_2.jpeg"
   ]
 }
