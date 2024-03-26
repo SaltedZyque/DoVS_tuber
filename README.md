@@ -32,12 +32,12 @@ A checklist of goals to be accomplished for this project is shown as follows. Th
 2. Install required modules (with pip install)
 3. Run [face_tracker.py](face_tracker.py)
 ## Modules Used
-OpenCV
-Matplotlib (optional)
-Dlib (CMake and [Visual C++](https://visualstudio.microsoft.com/visual-cpp-build-tools/) install needed)
-Numpy
-Scipy
-Imutils
+- OpenCV
+- Matplotlib (optional)
+- Dlib (CMake and [Visual C++](https://visualstudio.microsoft.com/visual-cpp-build-tools/) install needed)
+- Numpy
+- Scipy
+- Imutils
 # Project Demo
 
 Running [dlib_landmarks.py](py/dlib_landmarks.py)
