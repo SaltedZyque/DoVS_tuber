@@ -124,7 +124,7 @@ while True:
         break
 ```
 
-![](assets/doc/live1.mp4)
+![live1_demo](assets/doc/live1.mp4)
 
 
 # Facial Landmark Extraction
@@ -135,7 +135,9 @@ Tutorials Referenced:
 - https://www.studytonight.com/post/dlib-68-points-face-landmark-detection-with-opencv-and-python
 - https://medium.com/analytics-vidhya/facial-landmark-detection-in-real-time-using-opencv-dlib-adbba9255329
 
-![](assets/doc/live2.mp4)
+![live2_demo](assets/doc/live2.mp4)
+
+
 # Parameterizing Facial Features
 
 ## The Eyes
@@ -155,7 +157,7 @@ if left_EAR < MIN_EAR:
             cv.putText(video_frame, "Left Eye Closed!", (10, 30),   cv.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 ```
 
-![](assets/doc/eyetracking.mp4)
+![eyetrack video](assets/doc/eyetracking.mp4)
 
 As seen in the video, the sensitivity of the tracker can sometimes be inaccurate, as my eyes are quite small and can be mistaken to be closed. Further improvement is optimising and smoothing the tracking such that they can identify landmarks more accurately, and maybe an initial calibration phase for users to adjust to their own facial features.
 
